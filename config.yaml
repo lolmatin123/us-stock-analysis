@@ -1,0 +1,32 @@
+# 美股分析系统配置文件
+
+# 数据配置
+data:
+  cache_dir: "./cache"
+  cache_ttl: 3600
+
+# 输出配置
+output:
+  html_dir: "./output"
+  md_dir: "./output"
+  json_dir: "./output"
+
+# yfinance配置
+yfinance:
+  timeout: 30
+  retry: 1
+
+# 分析配置
+analysis:
+  kline_days: 120
+  ma_periods: [5, 20, 60]
+
+# HTML配置
+html:
+  theme: "dark"
+  chart_height: 480
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "./logs/us_stock_analysis.log"
