@@ -68,7 +68,7 @@ us-stock-analysis/
 
 ## 技术亮点
 
-- **速度**：ThreadPoolExecutor 并发采集，3-6 秒完成（vs A股版 3-5 分钟）
+- **速度**：ThreadPoolExecutor 并发采集，3-6 秒完成
 - **免费**：基于 yfinance，无需任何 API Key
 - **美股适配**：绿涨红跌、USD、Fed利率/做空率/期权IV分析
 - **完整框架**：Step 0-8 覆盖宏观→产业链→质量→弹性→风险→估值→对标→结论
