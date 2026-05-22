@@ -86,4 +86,6 @@ us-stock-analysis/
 
 ---
 
-灵感来源：[stock-analysis](https://github.com/mingli30119/stock-analysis)（A股版）
+## 致谢
+
+本项目基于 [@mingli30119](https://github.com/mingli30119) 的 [stock-analysis](https://github.com/mingli30119/stock-analysis)（A股深度研究系统）移植适配而来，核心三层架构、分析框架（Step 0-8）、HTML 报告样式均源自原作者设计，在此表示感谢。

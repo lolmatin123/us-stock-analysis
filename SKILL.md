@@ -1,7 +1,7 @@
 ---
 name: us-stock-analysis
 description: 美股深度研究系统（三层架构版），基于yfinance免费数据（无需API key），生成专业的美股基本面分析HTML报告。包含K线图、财务分析、五维评分、投资建议。绿涨红跌。当用户说"分析AAPL"、"analyze TSLA"、"美股分析"时触发。
-trigger_keywords: ["分析美股", "美股分析", "analyze", "US stock", "美股研究"]
+trigger_keywords: ["分析美股", "美股分析", "analyze", "US stock", "美股研究", "查看美股报告", "美股报告列表", "美股仪表盘"]
 version: 1.0
 last_updated: 2026-05-19
 ---
@@ -14,6 +14,20 @@ last_updated: 2026-05-19
 ---
 
 ## ⚡ 使用方式
+
+### 📊 报告仪表盘（查看历史报告）
+
+**当用户说"查看美股报告"、"美股报告列表"、"美股仪表盘"、"打开报告"时：**
+
+```bash
+cd ~/.claude/skills/us-stock-analysis && python3 report_dashboard.py
+```
+
+自动扫描所有已生成的研究报告，生成一个可视化仪表盘页面，点击任意卡片即可打开完整报告。
+
+---
+
+### 个股分析全流程
 
 **当用户说"分析 AAPL"或"analyze TSLA"时，AI一次性完成三阶段全流程（连续执行，中间不询问用户是否继续）：**
 
